@@ -16,6 +16,7 @@
         "db:migrate": "drizzle-kit migrate",
         "db:seed": "bun src/seed/seed.ts",
         "db:seed:stripe": "bun src/seed/stripe/stripe.ts",
+        "db:seed:self-hosted": "bun src/seed/self-hosted/self-hosted.ts",
         "db:reset": "bun src/seed/reset.ts",
         "db:drop": "drizzle-kit drop",
         "db:migrate:branching": "bun src/migration-scripts/migrate-to-branching.ts"
